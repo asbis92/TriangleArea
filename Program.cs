@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RectangleAreaMethod
+namespace TriangleAreaMethod
 {
     class Program
     {
@@ -14,9 +14,9 @@ namespace RectangleAreaMethod
             double h = double.Parse(Console.ReadLine());
             Console.WriteLine(TriangleArea(a, h));
         }
-        static double TriangleArea(double a, double h)
+        static double TriangleArea(double sideA, double hight)
         {
-            double area = a * h / 2;
+            double area = sideA * hight / 2;
             return area;
         }
     }
